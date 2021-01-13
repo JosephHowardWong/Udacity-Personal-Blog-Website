@@ -1,0 +1,104 @@
+/* Hero headers */
+.hero-cheetah {
+  background-image: url(../images/cheetah1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.hero-giraffe {
+  background-image: url(../images/giraffe1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+/* blog */
+.grid-blog {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-author-info {
+  margin: 0 0 20px 40px;
+}
+
+.blog-author-info p {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.blog-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+blockquote {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.blog-pic {
+  padding: 50px 100px;
+}
+
+figure img {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 10);
+}
+
+figcaption {
+  margin-left: 50px;
+  font-size: 1.2rem;
+}
+
+/* Author Profile */
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  color: black;
+  border-radius: 20px;
+  height: 700px;
+  width: 250px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+}
+
+aside .social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social a {
+  height: 50px;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  .grid-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-pic {
+    padding: 0;
+  }
+}
