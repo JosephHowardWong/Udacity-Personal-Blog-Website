@@ -2,3 +2,5 @@
 Udacity personal blog website project
 
 * built out a blog site with links to separate pages with blogs
+
+* Uses CSS grid and flexbox
